@@ -105,5 +105,4 @@ jobs:
                 run: terraform destroy -auto-approve
 
             -   name: Cleanup Terraform
-                if: successful()
                 run: terraform destroy -auto-approve
