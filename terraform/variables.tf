@@ -12,6 +12,6 @@ variable "clusterName" {
 
 variable "BucketName" {
   description = "Name of S3 bucket for tfstate"
-  type = string
-  default = "projectactions261223"
+  type        = string
+  default     = "projectactions261223"
 }
